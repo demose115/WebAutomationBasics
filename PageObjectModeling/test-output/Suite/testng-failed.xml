@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="FlightBookingTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.demoaut.newtours.TestScripts.FlightBookingTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.TestScripts.FlightBookingTest -->
+      <class name="com.demoaut.newtours.TestScripts.validCredentialsTests">
+        <methods>
+          <include name="validlogin"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.TestScripts.validCredentialsTests -->
+    </classes>
+  </test> <!-- FlightBookingTest(failed) -->
+  <test name="Valid CredentialsTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.demoaut.newtours.TestScripts.FlightBookingTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.TestScripts.FlightBookingTest -->
+      <class name="com.demoaut.newtours.TestScripts.validCredentialsTests">
+        <methods>
+          <include name="validlogin"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.TestScripts.validCredentialsTests -->
+    </classes>
+  </test> <!-- Valid CredentialsTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
